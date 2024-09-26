@@ -1,0 +1,14 @@
+{
+  "name": "open-in-github-dev",
+  "module": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun build --watch src/index.js --outfile dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
