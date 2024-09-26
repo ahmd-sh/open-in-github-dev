@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Open in (GitHub) Dev",
+    "description": "Conveniently open GitHub repos in github.dev via right click.",
+    "version": "1.0",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "*://github.com/*/*"
+    ],
+    "background": {
+        "service_worker": "dist/index.js"
+    },
+    "icons": {
+        "16": "assets/logo/logo-16.png",
+        "32": "assets/logo/logo-32.png",
+        "48": "assets/logo/logo-48.png",
+        "96": "assets/logo/logo-96.png",
+        "128": "assets/logo/logo-128.png"
+    }
+}
