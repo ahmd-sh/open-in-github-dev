@@ -7,9 +7,6 @@
         "contextMenus",
         "tabs"
     ],
-    "host_permissions": [
-        "*://github.com/*/*"
-    ],
     "background": {
         "service_worker": "dist/index.js"
     },
