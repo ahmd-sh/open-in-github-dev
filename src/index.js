@@ -1,5 +1,6 @@
 // Function to transform the URL from github.com to github.dev
 function openInDev(url, openInNewTab = true) {
+    // Replace the first occurrence of github.com
     const devUrl = url.replace("github.com", "github.dev");
 
     if (openInNewTab) {
