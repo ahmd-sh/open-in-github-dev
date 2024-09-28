@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Open in (GitHub) Dev",
+    "name": "Open in (GitHub) Dev!",
     "description": "Conveniently open GitHub repos in GitHub.dev via right-click.",
     "version": "1.0",
     "permissions": [
