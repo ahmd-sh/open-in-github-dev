@@ -1,8 +1,8 @@
-# Open in (GitHub) .dev
+# Open in (GitHub) Dev!
 
-Conveniently open GitHub repos in GitHub.dev via right-click.
+Quickly open GitHub repos in GitHub.dev via right-click.
 
-## Screenshots
+### Screenshots
 
 <h3 align="center"><img width="700" alt="extension screenshot" src="./assets/images/screenshots-1.png" style="border-radius: 15px;"></h3>
 
