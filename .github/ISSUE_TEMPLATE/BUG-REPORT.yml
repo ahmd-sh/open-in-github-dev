@@ -1,0 +1,60 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: <title>"
+labels: ["bug", "triage"]
+assignees:
+  - ahmd-sh
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: ALSO tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "The extension did not xyz! I expected it to xyz."
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: What version are you running?
+      description: You can see it by tapping the info button on the top right of the SimplyQibla app.
+      placeholder: ex. 1.1.2
+      value: "1.1.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browser(s) are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Other (please specify below)
+  - type: textarea
+    id: other-browsers
+    attributes:
+      label: If you selected "Other", please specify.
+      placeholder: e.g., Opera GX
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: |
+        Attach screenshots here if appropriate.
+  
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
