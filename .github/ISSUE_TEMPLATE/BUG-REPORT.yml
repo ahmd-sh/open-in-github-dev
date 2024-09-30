@@ -30,9 +30,9 @@ body:
     id: version
     attributes:
       label: What version are you running?
-      description: You can see it by tapping the info button on the top right of the SimplyQibla app.
-      placeholder: ex. 1.1.2
-      value: "1.1.2"
+      description: You can see it on your browser's extensions page.
+      placeholder: ex. 1.0.0
+      value: "1.0.0"
     validations:
       required: true
   - type: dropdown
