@@ -4,8 +4,8 @@ import { copyFileSync } from 'fs';
 const targetBrowser = process.argv[2];
 
 const manifestMap = {
-    chrome: 'manifest.chrome.json',
-    firefox: 'manifest.firefox.json',
+    chrome: 'manifest/manifest.chrome.json',
+    firefox: 'manifest/manifest.firefox.json',
 };
 
 const selectedManifest = manifestMap[targetBrowser];
