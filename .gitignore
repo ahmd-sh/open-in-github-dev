@@ -176,3 +176,6 @@ dist
 
 # Generated manifest
 manifest.json
+
+# Generated build files
+build
