@@ -27,6 +27,8 @@ After installing Bun, install the project dependencies by running:
 bun install
 ```
 
+You'll also need [web-ext](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/) installed on your system to build the extension into an optimized .zip file. You can follow the instructions [here](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/).
+
 ### 3. Development Mode
 To start the development mode with auto-reloading for a specific browser (Chrome or Firefox):
 
@@ -59,4 +61,4 @@ To create a production build for a specific browser, run one of the following co
   bun run build:firefox
   ```
 
-This will generate the final `dist/index.js` file and the corresponding `manifest.json` for the chosen browser.
+This will generate the corresponding `manifest.json` for the chosen browser and compress relevant files to `build/`.
