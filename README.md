@@ -62,3 +62,7 @@ To create a production build for a specific browser, run one of the following co
   ```
 
 This will generate the corresponding `manifest.json` for the chosen browser and compress relevant files to `build/`.
+
+### IMPORTANT
+
+The generate manifests script in `manifest/` and the build script in `build-scripts/` use forward slashes for file paths, which may not work on Windows and similar operating systems. Only Unix-like systems (MacOS, Linux, etc.) are supported as of now.
