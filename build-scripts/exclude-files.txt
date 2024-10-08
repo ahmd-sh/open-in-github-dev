@@ -1,0 +1,8 @@
+.github
+bun.lockb
+node_modules
+build
+build-scripts
+manifest
+assets/images
+README.md
