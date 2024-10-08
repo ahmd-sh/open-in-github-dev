@@ -8,7 +8,14 @@
         "tabs"
     ],
     "background": {
-        "scripts": ["dist/index.js"]
+        "scripts": [
+            "dist/index.js"
+        ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "dd72f992-a1fd-481b-9844-c58771804925"
+        }
     },
     "icons": {
         "16": "assets/logo/logo-16.png",
