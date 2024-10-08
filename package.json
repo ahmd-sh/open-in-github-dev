@@ -4,10 +4,10 @@
   "type": "module",
   "scripts": {
     "dev": "bun build --watch src/index.js --outfile dist/index.js",
-    "dev:chrome": "bun run generate-manifest.js chrome && bun build --watch src/index.js --outfile dist/index.js",
-    "dev:firefox": "bun run generate-manifest.js firefox && bun build --watch src/index.js --outfile dist/index.js",
-    "build:chrome": "bun run generate-manifest.js chrome && bun build src/index.js --outfile dist/index.js",
-    "build:firefox": "bun run generate-manifest.js firefox && bun build src/index.js --outfile dist/index.js"
+    "dev:chrome": "bun run manifest/generate-manifest.js chrome && bun build --watch src/index.js --outfile dist/index.js",
+    "dev:firefox": "bun run manifest/generate-manifest.js firefox && bun build --watch src/index.js --outfile dist/index.js",
+    "build:chrome": "bun run build-scripts/build-web-ext.js chrome",
+    "build:firefox": "bun run build-scripts/build-web-ext.js firefox"
   },
   "devDependencies": {
     "@types/bun": "latest"
