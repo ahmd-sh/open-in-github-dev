@@ -2,6 +2,8 @@
 
 Quickly open GitHub repos in GitHub.dev via right-click.
 
+[Chrome](https://chromewebstore.google.com/detail/open-in-github-dev/gakonmigplmgnfipjaaiobfkpcpkbdai) . [FireFox](https://addons.mozilla.org/en-CA/firefox/addon/open-in-github-dev)
+
 ### Screenshots
 
 <h3 align="center"><img width="700" alt="extension screenshot" src="./assets/images/screenshots-1.png" style="border-radius: 15px;"></h3>
